@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComicMania</title>
+  <link rel="stylesheet" href="styles.css">
+
+</head>
+<body>
+    <div class="container">
+        Welcome to <b>ComicMania</b> as <i>guest.</i>
+    </div>
+
+    <div class="container">
+
+        <h1>
+            Comics
+        </h1>
+    
+        <form action="comic\comic_index.php" >
+            <input type="submit" value="Display Comics" class="displaybutton"/>
+        </form>
+    
+
+    
+
+        <form action="comic\comic_select.html" >
+            <input type="submit" value="Filter Comics & Display" class="addbutton"/>
+        </form>
+    
+
+        
+
+    </div>
+
+    <div class="container">
+
+        <h1>
+            Authors
+        </h1>
+    
+        <form action="author/author_index.php" >
+            <input type="submit" value="Display Authors" class="displaybutton"/>
+        </form>
+    
+
+        <form action="author/author_select.html" >
+            <input type="submit" value="Filter Authors & Display" class="addbutton"/>
+        </form>
+    
+ 
+        <form action="relations/writes.php" >
+            <input type="submit" value="Show Comic-Author Relations" class="deletebutton"/>
+        </form>
+
+        
+
+    </div>
+
+    <div class="container">
+
+        <h1>
+            Illustrators
+        </h1>
+    
+        <form action="illustrator/illustrator_index.php" >
+            <input type="submit" value="Display Illustrators" class="displaybutton"/>
+        </form>
+    
+
+        <form action="illustrator/illustrator_select.html" >
+            <input type="submit" value="Filter Illustrators & Display" class="addbutton"/>
+        </form>
+
+    
+        <form action="relations/illustrates.php" >
+            <input type="submit" value="Show Comic-Illustrator Relations" class="deletebutton"/>
+        </form>
+        
+
+    </div>
+
+    <div class="container">
+
+        <h1>
+            Colorists
+        </h1>
+    
+        <form action="colorist/colorist_index.php" >
+            <input type="submit" value="Display Colorists" class="displaybutton"/>
+        </form>
+
+    
+        <form action="colorist/colorist_select.html" >
+            <input type="submit" value="Filter Colorists & Display" class="addbutton"/>
+        </form>
+
+    
+
+        <form action="relations/colors.php" >
+            <input type="submit" value="Show Comic-Colorist Relations" class="deletebutton"/>
+        </form>
+
+    </div>
+    
+    <div class="container">
+
+
+    
+        <form action="client_chat.php" >
+            <input type="submit" value="Get Support From Admin" class="displaybutton"/>
+        </form>
+
+    
+        
+
+    </div>
+
+    
+</body>
+</html>

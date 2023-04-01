@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ComicMania</title>
+  <link rel="stylesheet" href="styles.css">
+
+
+</head>
+<body>
+    <div class="container">
+        Welcome to <b>ComicMania</b> as <i>admin.</i>
+    </div>
+
+    <div class="container">
+
+        <h1>
+            Comics
+        </h1>
+        <form action="comic\comic_index.php" >
+
+            <input type="submit" value="Display Comics" class="displaybutton"/>
+        </form>
+        
+        <form action="comic\comic_insert.html">
+            <input type="submit" value="Add Comics To Database" class="addbutton"/>
+        </form>
+        
+
+        <form action="comic\comic_select.html" >
+            <input type="submit" value="Filter Comics & Display" class="displaybutton"/>
+        </form>
+        
+ 
+        <form action="comic\comic_delete.html" >
+            <input type="submit" value="Delete Comics From Database" class="deletebutton"/>
+        </form>
+
+        
+
+    </div>
+
+    <div class="container">
+
+        <h1>
+            Authors
+        </h1>
+        
+        <form action="author/author_index.php" >
+            <input type="submit" value="Display Authors" class="displaybutton"/>
+        </form>
+        
+        <form action="author/author_insert.html">
+            <input type="submit" value="Add Authors To Database" class="addbutton"/>
+        </form>
+        
+
+        <form action="author/author_select.html" >
+            <input type="submit" value="Filter Authors & Display" class="displaybutton"/>
+        </form>
+        
+ 
+        <form action="author/author_delete.html" >
+            <input type="submit" value="Delete Authors From Database" class="deletebutton"/>
+        </form>
+        
+        <form action="relations/writes.php" >
+            <input type="submit" value="Show Comic-Author Relations" class="displaybutton"/>
+        </form>
+
+        
+
+    </div>
+
+    <div class="container">
+
+        <h1>
+            Illustrators
+        </h1>
+        
+        <form action="illustrator/illustrator_index.php" >
+            <input type="submit" value="Display Illustrators" class="displaybutton"/>
+        </form>
+        
+        <form action="illustrator/illustrator_insert.html">
+            <input type="submit" value="Add Illustrators To Database" class="addbutton"/>
+        </form>
+        
+
+        <form action="illustrator/illustrator_select.html" >
+            <input type="submit" value="Filter Illustrators & Display" class="displaybutton"/>
+        </form>
+
+        
+        <form action="illustrator/illustrator_delete.html" >
+            <input type="submit" value="Delete Illustrators From Database" class="deletebutton"/>
+        </form>
+        
+        <form action="relations/illustrates.php" >
+            <input type="submit" value="Show Comic-Illustrator Relations" class="displaybutton"/>
+        </form>
+        
+
+    </div>
+
+    <div class="container">
+
+        <h1>
+            Colorists
+        </h1>
+        
+        <form action="colorist/colorist_index.php" >
+            <input type="submit" value="Display Colorists" class="displaybutton"/>
+        </form>
+        
+        <form action="colorist/colorist_insert.html">
+            <input type="submit" value="Add Colorists To Database" class="addbutton"/>
+        </form>
+
+        
+        <form action="colorist/colorist_select.html" >
+            <input type="submit" value="Filter Colorists & Display" class="displaybutton"/>
+        </form>
+
+        
+        <form action="colorist/colorist_delete.html" >
+            <input type="submit" value="Delete Colorists From Database" class="deletebutton"/>
+        </form>
+        
+
+        <form action="relations/colors.php" >
+            <input type="submit" value="Show Comic-Colorist Relations" class="deletebutton"/>
+        </form>
+
+        </div>
+    
+        <div class="container">
+            <form action="admin_chat.php" >
+                <input type="submit" value="Support Client" class="addbutton"/>
+            </form>
+        </div>
+            
+</body>
+</html>
